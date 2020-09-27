@@ -20,9 +20,56 @@ namespace Chp_7_2
     /// </summary>
     public partial class MainWindow : Window
     {
+        Deck deck1;
+        Deck deck2;
+        Random random = new Random();
+
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void moveToDeck2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void moveToDeck1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void reset1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void reset2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void shuffle1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void shuffle2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ResetDeck(int i)
+        {
+            if (i == 1)
+            {
+                deck1=new Deck()
+            
+            }
+        
+        
+        
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Chp_8_1
+namespace Chp_7_2
 {
     enum Suits
     {
